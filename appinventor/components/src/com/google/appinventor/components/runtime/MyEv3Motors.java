@@ -25,10 +25,10 @@ import java.util.List;
  */
 @DesignerComponent(version = YaVersion.EV3_MOTORS_COMPONENT_VERSION,
         description = "Improved EV3 Motor",
-        category = ComponentCategory.LEGOMINDSTORMS,
+        category = ComponentCategory.EXTENSION,
         nonVisible = true,
         iconName = "images/legoMindstormsEv3.png")
-@SimpleObject
+@SimpleObject(external = true)
 public class MyEv3Motors extends Ev3Motors {
 
     private static TimerInternal timerInternal;
