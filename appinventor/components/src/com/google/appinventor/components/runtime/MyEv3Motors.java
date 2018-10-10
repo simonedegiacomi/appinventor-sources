@@ -1,8 +1,3 @@
-// -*- mode: java; c-basic-offset: 2; -*-
-// Copyright 2016 MIT, All rights reserved
-// Released under the Apache License, Version 2.0
-// http://www.apache.org/licenses/LICENSE-2.0
-
 package com.google.appinventor.components.runtime;
 
 import com.google.appinventor.components.annotations.DesignerComponent;
@@ -10,19 +5,12 @@ import com.google.appinventor.components.annotations.SimpleFunction;
 import com.google.appinventor.components.annotations.SimpleObject;
 import com.google.appinventor.components.common.ComponentCategory;
 import com.google.appinventor.components.common.YaVersion;
-import com.google.appinventor.components.runtime.util.ErrorMessages;
 import com.google.appinventor.components.runtime.util.TimerInternal;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * A component that provides both high- and low-level interfaces to
- * control the motors on LEGO MINDSTORMS EV3.
- *
- * @author jerry73204@gmail.com (jerry73204)
- * @author spaded06543@gmail.com (Alvin Chang)
- */
+
 @DesignerComponent(version = YaVersion.EV3_MOTORS_COMPONENT_VERSION,
         description = "Improved EV3 Motor",
         category = ComponentCategory.EXTENSION,
